@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StaticActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/red_fragment_placeholder"
+        android:name="adan.polinema.ac.id.fragment.fragments.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/blue_fragment_placeholder"
+        android:name="adan.polinema.ac.id.fragment.fragments.BlueFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>
+

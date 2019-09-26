@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_static_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handlerClickStaticFragment"
+        android:text="Contoh Static Fragment" />
+    <Button
+        android:id="@+id/btn_dynamic_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handlerClickDynamicFragment"
+        android:text="Contoh Dynamic Fragment" />
+    <Button
+        android:id="@+id/btn_praktikum_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handlerClickPraktikumFragment"
+        android:text="Tugas Praktikum Fragment	" />
+
+
+
+</LinearLayout>
